@@ -71,7 +71,7 @@ def my_function():
     
     source_dir = ''
     dest_dir = ''
-
+# 以下为对录播文件进行处理的操作 可省去
    # 移动文件夹
     if not os.path.exists(dest_dir):
         os.mkdir(dest_dir)
