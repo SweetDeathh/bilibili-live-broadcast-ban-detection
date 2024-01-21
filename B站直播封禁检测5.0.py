@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[18]:
-
 import sys
 import os
 import re
@@ -14,7 +9,7 @@ import datetime
 
 def my_function():
     # 设置需要提取数字的文件路径
-    directory = 'D:\B站录播'
+    directory = ''
 
     # 创建结果存储txt文件
     output_file = 'room_numbers.txt'
@@ -74,8 +69,8 @@ def my_function():
                 banned_rooms.append(room_id)
 
     
-    source_dir = 'D:\\B站录播'
-    dest_dir = 'D:\\存档'
+    source_dir = ''
+    dest_dir = ''
 
    # 移动文件夹
     if not os.path.exists(dest_dir):
@@ -143,16 +138,6 @@ def my_function():
                 folder_to_remove = os.path.join(root, dir_name)
                 print(f"删除文件夹: {folder_to_remove}")
                 remove_folder(folder_to_remove)
-
-
-
-
-    
-
-
-    
-
-
 
 if __name__ == '__main__':
     while True:
