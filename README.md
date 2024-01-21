@@ -1,4 +1,4 @@
-# bilibili-live-broadcast-ban-detection
+# bilibili直播封禁检测
 B站直播封禁检测
 
 使用录播软件例如B站录播姬生成的文件夹
